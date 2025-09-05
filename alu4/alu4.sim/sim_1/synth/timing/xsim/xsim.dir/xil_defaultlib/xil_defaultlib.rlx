@@ -1,0 +1,7 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/Sol/Digital-System-Design-II/alu4/alu4.sim/sim_1/synth/timing/xsim/aluTB_time_synth.v,1756503360,verilog,,,,alu4;glbl,,,../../../../../../../Xilinx/Vivado/2025.1/data/rsb/busdef,,,,,
+/home/Sol/Digital-System-Design-II/alu4/alu4.srcs/sim_1/new/aluTB.vhd,1756502401,vhdl,,,,alutb,,,,,,,,
+/home/Sol/Digital-System-Design-II/alu4/alu4.srcs/sources_1/new/globals.vhd,1756500327,vhdl,/home/Sol/Digital-System-Design-II/alu4/alu4.srcs/sim_1/new/aluTB.vhd,,,globals,,,,,,,,
