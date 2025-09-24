@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: Testbench Successful
+Time: 80 ns  Iteration: 0  Process: /binToGrayTB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw2/binToGray3/binToGray3.srcs/sim_1/new/binToGrayTB.vhd
+$finish called at time : 80 ns : File "/home/Sol/Digital-System-Design-II/hw2/binToGray3/binToGray3.srcs/sim_1/new/binToGrayTB.vhd" Line 78

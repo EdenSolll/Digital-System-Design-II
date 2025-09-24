@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sources_1/new/3bitCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CounterTB'

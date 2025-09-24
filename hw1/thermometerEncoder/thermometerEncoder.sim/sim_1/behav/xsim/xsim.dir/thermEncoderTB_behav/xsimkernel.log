@@ -1,0 +1,4 @@
+Running: xsim.dir/thermEncoderTB_behav/xsimk -simmode gui -wdb thermEncoderTB_behav.wdb -simrunnum 0 -socket 34381
+Design successfully loaded
+Design Loading Memory Usage: 176656 KB (Peak: 176708 KB)
+Design Loading CPU Usage: 1160 ms

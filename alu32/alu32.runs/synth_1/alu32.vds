@@ -1,0 +1,218 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Sep  5 17:05:28 2025
+# Process ID         : 113221
+# Current directory  : /home/Sol/Digital-System-Design-II/alu32/alu32.runs/synth_1
+# Command line       : vivado -log alu32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu32.tcl
+# Log file           : /home/Sol/Digital-System-Design-II/alu32/alu32.runs/synth_1/alu32.vds
+# Journal file       : /home/Sol/Digital-System-Design-II/alu32/alu32.runs/synth_1/vivado.jou
+# Running On         : Solstice
+# Platform           : Arch
+# Operating System   : Arch Linux
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 961.270 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16468 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33648 MB
+# Available Virtual  : 26557 MB
+#-----------------------------------------------------------
+source alu32.tcl -notrace
+Command: synth_design -top alu32 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 113266
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1937.262 ; gain = 415.602 ; free physical = 324 ; free virtual = 24307
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'alu32' [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'orN' [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/orN.vhd:24]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'orN' (0#1) [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/orN.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'andN' [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/andN.vhd:24]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'andN' (0#1) [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/andN.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'xorN' [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/xorN.vhd:24]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xorN' (0#1) [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/xorN.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'srlN' [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/srlN.vhd:27]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlN' (0#1) [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/srlN.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'sraN' [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/sraN.vhd:27]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sraN' (0#1) [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/sraN.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'sllN' [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/sllN.vhd:27]
+	Parameter N bound to: 32 - type: integer 
+	Parameter M bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sllN' (0#1) [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/sllN.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'alu32' (0#1) [/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd:26]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2011.199 ; gain = 489.539 ; free physical = 230 ; free virtual = 24218
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2026.043 ; gain = 504.383 ; free physical = 221 ; free virtual = 24209
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2026.043 ; gain = 504.383 ; free physical = 221 ; free virtual = 24210
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2034.051 ; gain = 512.391 ; free physical = 207 ; free virtual = 24198
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2164.934 ; gain = 643.273 ; free physical = 210 ; free virtual = 24045
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2168.902 ; gain = 647.242 ; free physical = 210 ; free virtual = 24045
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2168.902 ; gain = 647.242 ; free physical = 210 ; free virtual = 24045
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2322.715 ; gain = 801.055 ; free physical = 176 ; free virtual = 23901
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2322.715 ; gain = 801.055 ; free physical = 176 ; free virtual = 23901
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2322.715 ; gain = 801.055 ; free physical = 176 ; free virtual = 23901
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2322.715 ; gain = 801.055 ; free physical = 176 ; free virtual = 23901
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2322.715 ; gain = 801.055 ; free physical = 176 ; free virtual = 23901
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2322.715 ; gain = 801.055 ; free physical = 176 ; free virtual = 23901
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     1|
+|2     |LUT3 |    15|
+|3     |LUT4 |    19|
+|4     |LUT5 |    73|
+|5     |LUT6 |   171|
+|6     |IBUF |    68|
+|7     |OBUF |    32|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   379|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2322.715 ; gain = 801.055 ; free physical = 177 ; free virtual = 23901
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2322.715 ; gain = 801.055 ; free physical = 177 ; free virtual = 23901
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2322.723 ; gain = 801.055 ; free physical = 177 ; free virtual = 23901
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2336.590 ; gain = 0.000 ; free physical = 327 ; free virtual = 24052
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2474.234 ; gain = 0.000 ; free physical = 233 ; free virtual = 23967
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 9fcbdf28
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 2474.270 ; gain = 952.609 ; free physical = 231 ; free virtual = 23966
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1598.128; main = 1598.128; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 2474.238; main = 2474.238; forked = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2498.246 ; gain = 0.000 ; free physical = 238 ; free virtual = 23973
+INFO: [Common 17-1381] The checkpoint '/home/Sol/Digital-System-Design-II/alu32/alu32.runs/synth_1/alu32.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file alu32_utilization_synth.rpt -pb alu32_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  5 17:05:45 2025...

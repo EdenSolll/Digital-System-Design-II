@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+Error: Test failed
+Time: 0 ps  Iteration: 1  Process: /CounterTB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd
+Error: Test failed
+Time: 100 ns  Iteration: 1  Process: /CounterTB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd
+Error: Test failed
+Time: 200 ns  Iteration: 1  Process: /CounterTB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd
+Error: Test failed
+Time: 300 ns  Iteration: 1  Process: /CounterTB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd
+Error: Test failed
+Time: 500 ns  Iteration: 1  Process: /CounterTB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd
+Error: Test failed
+Time: 600 ns  Iteration: 1  Process: /CounterTB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd
+Error: Test failed
+Time: 700 ns  Iteration: 1  Process: /CounterTB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd
+Failure: Testbench Concluded Successfully
+Time: 700 ns  Iteration: 1  Process: /CounterTB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd
+$finish called at time : 700 ns : File "/home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.srcs/sim_1/new/counterTB.vhd" Line 104

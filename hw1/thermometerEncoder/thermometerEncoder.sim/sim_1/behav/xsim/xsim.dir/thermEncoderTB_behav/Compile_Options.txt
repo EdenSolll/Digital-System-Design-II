@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "thermEncoderTB_behav" "xil_defaultlib.thermEncoderTB" -log "elaborate.log" 

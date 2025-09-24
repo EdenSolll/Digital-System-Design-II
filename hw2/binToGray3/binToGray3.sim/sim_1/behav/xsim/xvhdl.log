@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/hw2/binToGray3/binToGray3.srcs/sources_1/new/binToGray3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'binToGray'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/hw2/binToGray3/binToGray3.srcs/sim_1/new/binToGrayTB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'binToGrayTB'

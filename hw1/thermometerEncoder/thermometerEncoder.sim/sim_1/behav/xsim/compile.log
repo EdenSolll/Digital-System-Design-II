@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/hw1/thermometerEncoder/thermometerEncoder.srcs/sources_1/new/thermometerEncoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'thermN'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/hw1/thermometerEncoder/thermometerEncoder.srcs/sim_1/new/thermEncoderTB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'thermEncoderTB'

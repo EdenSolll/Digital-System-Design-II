@@ -1,0 +1,31 @@
+Time resolution is 1 ps
+Error: Q test failed at test 0
+Time: 50 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Dout test failed at test 0
+Time: 50 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Q test failed at test 1
+Time: 150 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Dout test failed at test 1
+Time: 150 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Q test failed at test 2
+Time: 250 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Dout test failed at test 2
+Time: 250 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Q test failed at test 3
+Time: 350 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Dout test failed at test 3
+Time: 350 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Q test failed at test 4
+Time: 450 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Q test failed at test 5
+Time: 550 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Q test failed at test 6
+Time: 650 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Dout test failed at test 6
+Time: 650 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Q test failed at test 7
+Time: 750 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Error: Dout test failed at test 7
+Time: 750 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd
+Note: Testbench Successful
+Time: 750 ns  Iteration: 1  Process: /universalShiftRegisterTB/test_process  File: /home/Sol/Digital-System-Design-II/hw2/universalShiftRegister/universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd

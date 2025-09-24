@@ -89,6 +89,9 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc /home/Sol/Digital-System-Design-II/alu4/alu4.srcs/constrs_1/new/adc4.xdc
+set_property used_in_implementation false [get_files /home/Sol/Digital-System-Design-II/alu4/alu4.srcs/constrs_1/new/adc4.xdc]
+
 set_param ips.enableIPCacheLiteLoad 1
 
 read_checkpoint -auto_incremental -incremental /home/Sol/Digital-System-Design-II/alu4/alu4.srcs/utils_1/imports/synth_1/alu4.dcp

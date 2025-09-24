@@ -1,0 +1,13 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sim_1/new/alu32TB.vhd,1756825331,vhdl,,,,alu32tb,,,,,,,,
+/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,1756825431,vhdl,,,,alu32,,,,,,,,
+/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/andN.vhd,1756593499,vhdl,/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,andn,,,,,,,,
+/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/globals.vhd,1756594213,vhdl,/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sim_1/new/alu32TB.vhd;/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,globals,,,,,,,,
+/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/orN.vhd,1756593547,vhdl,/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,orn,,,,,,,,
+/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/sllN.vhd,1756594302,vhdl,/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,slln,,,,,,,,
+/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/sraN.vhd,1756595118,vhdl,/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,sran,,,,,,,,
+/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/srlN.vhd,1756595133,vhdl,/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,srln,,,,,,,,
+/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/xorN.vhd,1756595924,vhdl,/home/Sol/Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,xorn,,,,,,,,

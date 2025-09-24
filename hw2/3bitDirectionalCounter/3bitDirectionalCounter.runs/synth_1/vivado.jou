@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Sep 15 22:31:04 2025
+# Process ID         : 49350
+# Current directory  : /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.runs/synth_1
+# Command line       : vivado -log counter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter.tcl
+# Log file           : /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.runs/synth_1/counter.vds
+# Journal file       : /home/Sol/Digital-System-Design-II/hw2/3bitDirectionalCounter/3bitDirectionalCounter.runs/synth_1/vivado.jou
+# Running On         : Solstice
+# Platform           : Arch
+# Operating System   : Arch Linux
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 2399.975 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16468 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33648 MB
+# Available Virtual  : 27574 MB
+#-----------------------------------------------------------
+source counter.tcl -notrace

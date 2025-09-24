@@ -43,7 +43,7 @@ begin
 	data_proc : process is
 	begin
 		for i in 0 to 7 loop
-			wait for delay; 
+			wait for delay;
 			A <= STD_LOGIC_VECTOR(unsigned(A) + 1);
 		end loop;
 

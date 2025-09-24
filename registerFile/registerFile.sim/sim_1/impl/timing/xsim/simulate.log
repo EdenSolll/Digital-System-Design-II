@@ -1,0 +1,44 @@
+Time resolution is 1 ps
+Note: t=200000 ps test=0 RD1=0 exp_RD1=0
+Time: 200 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=200000 ps test=0 RD2=0 exp_RD2=0
+Time: 200 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=400000 ps test=1 RD1=0 exp_RD1=0
+Time: 400 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=400000 ps test=1 RD2=0 exp_RD2=0
+Time: 400 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=600000 ps test=2 RD1=16 exp_RD1=16
+Time: 600 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=600000 ps test=2 RD2=0 exp_RD2=0
+Time: 600 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=800000 ps test=3 RD1=255 exp_RD1=255
+Time: 800 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=800000 ps test=3 RD2=16 exp_RD2=16
+Time: 800 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1000000 ps test=4 RD1=255 exp_RD1=255
+Time: 1 us  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1000000 ps test=4 RD2=16 exp_RD2=16
+Time: 1 us  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1200000 ps test=5 RD1=170 exp_RD1=170
+Time: 1200 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1200000 ps test=5 RD2=255 exp_RD2=255
+Time: 1200 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1400000 ps test=6 RD1=170 exp_RD1=170
+Time: 1400 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1400000 ps test=6 RD2=255 exp_RD2=255
+Time: 1400 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1600000 ps test=7 RD1=85 exp_RD1=85
+Time: 1600 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1600000 ps test=7 RD2=170 exp_RD2=170
+Time: 1600 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1800000 ps test=8 RD1=170 exp_RD1=170
+Time: 1800 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=1800000 ps test=8 RD2=85 exp_RD2=85
+Time: 1800 ns  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=2000000 ps test=9 RD1=51 exp_RD1=51
+Time: 2 us  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Note: t=2000000 ps test=9 RD2=85 exp_RD2=85
+Time: 2 us  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+Failure: Testbench Concluded
+Time: 2 us  Iteration: 0  Process: /RegisterFileTB/stim_proc  File: /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd
+$finish called at time : 2 us : File "/home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd" Line 142

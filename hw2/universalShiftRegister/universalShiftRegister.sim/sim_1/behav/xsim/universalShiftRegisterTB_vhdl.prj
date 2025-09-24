@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../universalShiftRegister.srcs/sources_1/new/universalShiftRegister.vhd" \
+"../../../../universalShiftRegister.srcs/sim_1/new/universalShiftRegisterTB.vhd" \
+
+# Do not sort compile order
+nosort

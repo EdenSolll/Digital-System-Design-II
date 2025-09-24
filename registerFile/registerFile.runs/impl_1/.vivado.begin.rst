@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="Sol" Host="Solstice" Pid="257464" HostCore="8" HostMemory="16082712">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="Sol" Host="Solstice" Pid="15433" HostCore="8" HostMemory="16082708">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="Sol" Host="Solstice" Pid="34528" HostCore="8" HostMemory="16082708">
+    </Process>
+</ProcessHandle>
