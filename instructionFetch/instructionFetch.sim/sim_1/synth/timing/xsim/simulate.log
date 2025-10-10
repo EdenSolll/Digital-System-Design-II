@@ -1,0 +1,26 @@
+Time resolution is 1 ps
+Note: t=200000 ps test=0 instruction=0 exp_Instruction=0
+Time: 200 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=300000 ps test=1 instruction=286331153 exp_Instruction=286331153
+Time: 300 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=400000 ps test=2 instruction=572662306 exp_Instruction=572662306
+Time: 400 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=500000 ps test=3 instruction=303174162 exp_Instruction=303174162
+Time: 500 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=600000 ps test=4 instruction=-1 exp_Instruction=-1
+Time: 600 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=700000 ps test=5 instruction=0 exp_Instruction=0
+Time: 700 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=800000 ps test=6 instruction=286331153 exp_Instruction=286331153
+Time: 800 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=900000 ps test=7 instruction=572662306 exp_Instruction=572662306
+Time: 900 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=1000000 ps test=8 instruction=303174162 exp_Instruction=303174162
+Time: 1 us  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=1100000 ps test=9 instruction=-1 exp_Instruction=-1
+Time: 1100 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Note: t=1200000 ps test=10 instruction=0 exp_Instruction=0
+Time: 1200 ns  Iteration: 0  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+Failure: Testbench Concluded
+Time: 1200 ns  Iteration: 1  Process: /InstructionFetchTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd
+$finish called at time : 1200 ns : File "/home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd" Line 99

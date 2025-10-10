@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1758321589" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/registerFile.dcp">
-  <File Type="VDS-TIMINGSUMMARY" Name="registerFile_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="registerFile.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="registerFile_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="registerFile_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="registerFile_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="registerFile.vds"/>
   <File Type="REPORTS-TCL" Name="registerFile_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="registerFile_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="registerFile.tcl"/>
+  <File Type="RDS-UTIL" Name="registerFile_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="registerFile_utilization_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/globals.vhd">

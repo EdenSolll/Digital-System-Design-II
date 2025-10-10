@@ -1,0 +1,31 @@
+/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetchTB.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetchTB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity InstructionFetchTB
+-- Compiling architecture Behavioral of InstructionFetchTB
+
+} {} {}} /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionMemory.vhd {2 {vcom -work work -2002 -explicit -stats=none /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionMemory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instructionMemory
+-- Compiling architecture Behavioral of instructionMemory
+** Warning: /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionMemory.vhd(33): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+
+} {} {}} /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetch.vhd {0 {vcom -work work -2002 -explicit -stats=none /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetch.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find work.globals.
+** Error (suppressible): /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetch.vhd(23): (vcom-1195) Cannot find expanded name "work.globals".
+** Error: /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetch.vhd(23): Unknown expanded name.
+** Note: /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetch.vhd(25): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0} {}}

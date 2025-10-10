@@ -1,0 +1,6 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.sim/sim_1/synth/timing/xsim/InstructionDecodeTB_time_synth.v,1760062325,verilog,,,,RAM32M_HD1;RAM32M_HD12;RAM32M_HD2;RAM32M_HD3;RAM32M_HD5;RAM32M_HD6;RAM32M_HD7;RAM32M_HD8;RAM32M_HD9;RAM32M_UNIQ_BASE_;RAM32X1D_HD10;RAM32X1D_HD11;RAM32X1D_HD4;RAM32X1D_UNIQ_BASE_;glbl;instructionDecode;registerFile,,,../../../../../../../Xilinx/Vivado/2025.1/data/rsb/busdef,,,,,
+/home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.srcs/sim_1/new/instructionDecodeTB.vhd,1760062313,vhdl,,,,instructiondecodetb,,,,,,,,

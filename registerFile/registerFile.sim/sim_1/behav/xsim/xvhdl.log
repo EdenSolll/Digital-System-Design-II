@@ -1,4 +1,2 @@
 INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sources_1/new/registerFile.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'registerFile'
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'RegisterFileTB'

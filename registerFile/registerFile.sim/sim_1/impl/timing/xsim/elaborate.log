@@ -25,10 +25,10 @@ Compiling module simprims_ver.RAMD32
 Compiling module simprims_ver.RAMS32
 Compiling module xil_defaultlib.RAM32M_UNIQ_BASE_
 Compiling module xil_defaultlib.RAM32X1D_UNIQ_BASE_
-Compiling module xil_defaultlib.RAM32X1D_HD13
-Compiling module xil_defaultlib.RAM32M_HD14
-Compiling module xil_defaultlib.RAM32X1D_HD15
-Compiling module xil_defaultlib.RAM32X1D_HD16
+Compiling module xil_defaultlib.RAM32X1D_HD5
+Compiling module xil_defaultlib.RAM32M_HD6
+Compiling module xil_defaultlib.RAM32X1D_HD7
+Compiling module xil_defaultlib.RAM32X1D_HD8
 Compiling module xil_defaultlib.registerFile
 Compiling architecture tb of entity xil_defaultlib.registerfiletb
 Built simulation snapshot RegisterFileTB_time_impl

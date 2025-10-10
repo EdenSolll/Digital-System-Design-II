@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+Note: t=200000 ps test=0 exp_RegWrite='1' RegWrite='1' exp_MemtoReg='0' MemtoReg='0' exp_MemWrite='0' MemWrite='0' exp_ALUControl=12 ALUControl=12 exp_ALUSrc='0' ALUSrc='0' exp_RegDst='1' RegDst='1' exp_RD1=0 RD1=0 exp_RD2=0 RD2=0 exp_RtDest=0 RtDest=0 exp_RdDest=0 RdDest=0 exp_ImmOut=0 ImmOut=0
+Time: 200 ns  Iteration: 0  Process: /InstructionDecodeTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.srcs/sim_1/new/instructionDecodeTB.vhd
+Note: t=400000 ps test=1 exp_RegWrite='1' RegWrite='1' exp_MemtoReg='0' MemtoReg='0' exp_MemWrite='0' MemWrite='0' exp_ALUControl=4 ALUControl=4 exp_ALUSrc='0' ALUSrc='0' exp_RegDst='1' RegDst='1' exp_RD1=303174162 RD1=303174162 exp_RD2=303174162 RD2=303174162 exp_RtDest=1 RtDest=1 exp_RdDest=2 RdDest=2 exp_ImmOut=4128 ImmOut=4128
+Time: 400 ns  Iteration: 0  Process: /InstructionDecodeTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.srcs/sim_1/new/instructionDecodeTB.vhd
+Note: t=600000 ps test=2 exp_RegWrite='1' RegWrite='1' exp_MemtoReg='0' MemtoReg='0' exp_MemWrite='0' MemWrite='0' exp_ALUControl=4 ALUControl=4 exp_ALUSrc='1' ALUSrc='1' exp_RegDst='0' RegDst='0' exp_RD1=303174162 RD1=303174162 exp_RD2=303174162 RD2=303174162 exp_RtDest=1 RtDest=1 exp_RdDest=0 RdDest=0 exp_ImmOut=13 ImmOut=13
+Time: 600 ns  Iteration: 0  Process: /InstructionDecodeTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.srcs/sim_1/new/instructionDecodeTB.vhd
+Note: t=800000 ps test=3 exp_RegWrite='1' RegWrite='1' exp_MemtoReg='0' MemtoReg='0' exp_MemWrite='0' MemWrite='0' exp_ALUControl=6 ALUControl=6 exp_ALUSrc='0' ALUSrc='0' exp_RegDst='1' RegDst='1' exp_RD1=4095 RD1=4095 exp_RD2=4095 RD2=4095 exp_RtDest=3 RtDest=3 exp_RdDest=1 RdDest=1 exp_ImmOut=2073 ImmOut=2073
+Time: 800 ns  Iteration: 0  Process: /InstructionDecodeTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.srcs/sim_1/new/instructionDecodeTB.vhd
+Note: t=1000000 ps test=4 exp_RegWrite='0' RegWrite='0' exp_MemtoReg='0' MemtoReg='0' exp_MemWrite='1' MemWrite='1' exp_ALUControl=4 ALUControl=4 exp_ALUSrc='1' ALUSrc='1' exp_RegDst='0' RegDst='0' exp_RD1=1 RD1=1 exp_RD2=4095 RD2=4095 exp_RtDest=3 RtDest=3 exp_RdDest=0 RdDest=0 exp_ImmOut=420 ImmOut=420
+Time: 1 us  Iteration: 0  Process: /InstructionDecodeTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.srcs/sim_1/new/instructionDecodeTB.vhd
+Failure: Testbench Concluded
+Time: 1 us  Iteration: 1  Process: /InstructionDecodeTB/stim_proc  File: /home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.srcs/sim_1/new/instructionDecodeTB.vhd
+$finish called at time : 1 us : File "/home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.srcs/sim_1/new/instructionDecodeTB.vhd" Line 299

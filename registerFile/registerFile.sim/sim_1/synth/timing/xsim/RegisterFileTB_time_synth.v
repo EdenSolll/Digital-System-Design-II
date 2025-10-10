@@ -2,7 +2,7 @@
 // Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
-// Date        : Fri Sep 19 17:10:51 2025
+// Date        : Fri Sep 26 17:10:45 2025
 // Host        : Solstice running 64-bit Arch Linux
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               /home/Sol/Digital-System-Design-II/registerFile/registerFile.sim/sim_1/synth/timing/xsim/RegisterFileTB_time_synth.v
@@ -255,7 +255,7 @@ module RAM32M_UNIQ_BASE_
         .WE(WE));
 endmodule
 
-module RAM32M_HD10
+module RAM32M_HD2
    (DOA,
     DOB,
     DOC,
@@ -582,7 +582,7 @@ module RAM32X1D_UNIQ_BASE_
         .WE(WE));
 endmodule
 
-module RAM32X1D_HD11
+module RAM32X1D_HD1
    (DPO,
     SPO,
     A0,
@@ -668,7 +668,7 @@ module RAM32X1D_HD11
         .WE(WE));
 endmodule
 
-module RAM32X1D_HD12
+module RAM32X1D_HD3
    (DPO,
     SPO,
     A0,
@@ -754,7 +754,7 @@ module RAM32X1D_HD12
         .WE(WE));
 endmodule
 
-module RAM32X1D_HD9
+module RAM32X1D_HD4
    (DPO,
     SPO,
     A0,
@@ -840,7 +840,6 @@ module RAM32X1D_HD9
         .WE(WE));
 endmodule
 
-(* BIT_WIDTH = "8" *) (* LOG_PORT_DEPTH = "3" *) 
 (* NotValidForBitStream *)
 module registerFile
    (clk_n,
@@ -1126,7 +1125,6 @@ end
   (* RTL_RAM_NAME = "registerFile/mem_reg" *) 
   (* RTL_RAM_STYLE = "auto" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
-  (* XILINX_REPORT_XFORM = "RAM32M" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "7" *) 
   (* ram_offset = "0" *) 
@@ -1163,7 +1161,6 @@ end
   (* RTL_RAM_NAME = "registerFile/mem_reg_r1_0_7_6_7" *) 
   (* RTL_RAM_STYLE = "NONE" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
-  (* XILINX_REPORT_XFORM = "RAM32X1D" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "7" *) 
   (* ram_offset = "0" *) 
@@ -1193,13 +1190,12 @@ end
   (* RTL_RAM_NAME = "registerFile/mem_reg_r1_0_7_6_7" *) 
   (* RTL_RAM_STYLE = "NONE" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
-  (* XILINX_REPORT_XFORM = "RAM32X1D" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "7" *) 
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1D_HD9 mem_reg_r1_0_7_6_7__0
+  RAM32X1D_HD1 mem_reg_r1_0_7_6_7__0
        (.A0(Addr3_IBUF[0]),
         .A1(Addr3_IBUF[1]),
         .A2(Addr3_IBUF[2]),
@@ -1226,13 +1222,12 @@ end
   (* RTL_RAM_NAME = "registerFile/mem_reg" *) 
   (* RTL_RAM_STYLE = "auto" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
-  (* XILINX_REPORT_XFORM = "RAM32M" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "7" *) 
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "5" *) 
-  RAM32M_HD10 mem_reg_r2_0_7_0_5
+  RAM32M_HD2 mem_reg_r2_0_7_0_5
        (.ADDRA({1'b0,1'b0,Addr2_IBUF}),
         .ADDRB({1'b0,1'b0,Addr2_IBUF}),
         .ADDRC({1'b0,1'b0,Addr2_IBUF}),
@@ -1255,13 +1250,12 @@ end
   (* RTL_RAM_NAME = "registerFile/mem_reg_r2_0_7_6_7" *) 
   (* RTL_RAM_STYLE = "NONE" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
-  (* XILINX_REPORT_XFORM = "RAM32X1D" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "7" *) 
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1D_HD11 mem_reg_r2_0_7_6_7
+  RAM32X1D_HD3 mem_reg_r2_0_7_6_7
        (.A0(Addr3_IBUF[0]),
         .A1(Addr3_IBUF[1]),
         .A2(Addr3_IBUF[2]),
@@ -1285,13 +1279,12 @@ end
   (* RTL_RAM_NAME = "registerFile/mem_reg_r2_0_7_6_7" *) 
   (* RTL_RAM_STYLE = "NONE" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
-  (* XILINX_REPORT_XFORM = "RAM32X1D" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "7" *) 
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1D_HD12 mem_reg_r2_0_7_6_7__0
+  RAM32X1D_HD4 mem_reg_r2_0_7_6_7__0
        (.A0(Addr3_IBUF[0]),
         .A1(Addr3_IBUF[1]),
         .A2(Addr3_IBUF[2]),

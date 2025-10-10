@@ -12,6 +12,7 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.globals
 Compiling architecture behavioral of entity xil_defaultlib.registerFile [registerfile_default]
 Compiling architecture tb of entity xil_defaultlib.registerfiletb
 Built simulation snapshot RegisterFileTB_behav

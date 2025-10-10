@@ -1,0 +1,163 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/Sol/Digital-System-Design-II
+Pglobals
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+w1760060696
+Z2 d/home/Sol/Digital-System-Design-II/instructionFetchModelSim
+8/home/Sol/Digital-System-Design-II/instructionFetchModelSim/globals.vhd
+F/home/Sol/Digital-System-Design-II/instructionFetchModelSim/globals.vhd
+l0
+L16 1
+VN4CRS`8CRlgjY_M<GoJgQ1
+!s100 VU_5o[lUJQA]OBg[IBUC20
+Z3 OV;C;2020.1;71
+32
+Z4 !s110 1760060701
+!i10b 1
+Z5 !s108 1760060701.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/Sol/Digital-System-Design-II/instructionFetchModelSim/globals.vhd|
+!s107 /home/Sol/Digital-System-Design-II/instructionFetchModelSim/globals.vhd|
+!i113 1
+Z6 o-work work -2002 -explicit
+Z7 tExplicit 1 CvgOpt 0
+Einstructionfetch
+Z8 w1760060762
+Z9 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R0
+R1
+!i122 4
+R2
+Z10 8/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetch.vhd
+Z11 F/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetch.vhd
+l0
+L24 1
+VOkk^C[PJTo77mc@;>EO_J2
+!s100 EiM^f2S]AfQdn[hDfkIK_1
+R3
+32
+Z12 !s110 1760060767
+!i10b 1
+Z13 !s108 1760060767.000000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetch.vhd|
+Z15 !s107 /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetch.vhd|
+!i113 1
+R6
+R7
+Abehavioral
+Z16 DEx4 work 17 instructionmemory 0 22 leCElM3K`SIc[7?^<hG_n2
+R9
+R0
+R1
+DEx4 work 16 instructionfetch 0 22 Okk^C[PJTo77mc@;>EO_J2
+!i122 4
+l37
+L32 29
+VkPQJMbVLf4DHz9]30P26k3
+!s100 TlJMU9;9NVI`T?>4YMA=?1
+R3
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R6
+R7
+Einstructionfetchtb
+Z17 w1760060618
+R9
+R0
+R1
+!i122 6
+R2
+Z18 8/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetchTB.vhd
+Z19 F/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetchTB.vhd
+l0
+L20 1
+Vn<EQNcbe_=QzmjkBg=?D:1
+!s100 `46JE=[QeEAjSQXZNK]Nf2
+R3
+32
+R12
+!i10b 1
+R13
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetchTB.vhd|
+Z21 !s107 /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionFetchTB.vhd|
+!i113 1
+R6
+R7
+Abehavioral
+R9
+R0
+R1
+Z22 DEx4 work 18 instructionfetchtb 0 22 n<EQNcbe_=QzmjkBg=?D:1
+!i122 6
+l58
+Z23 L23 82
+Z24 VHf4kVfz0WVg@NmBO8EWYo1
+Z25 !s100 _96252Mh`OEX0N;k2XNn>1
+R3
+32
+!s110 1760060768
+!i10b 1
+R13
+R20
+R21
+!i113 1
+R6
+R7
+Einstructionmemory
+Z26 w1760060697
+R9
+R0
+R1
+!i122 5
+R2
+Z27 8/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionMemory.vhd
+Z28 F/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionMemory.vhd
+l0
+L17 1
+VleCElM3K`SIc[7?^<hG_n2
+!s100 L=XfAk;4C;]aDc5>BIfb61
+R3
+32
+R12
+!i10b 1
+R13
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionMemory.vhd|
+Z30 !s107 /home/Sol/Digital-System-Design-II/instructionFetchModelSim/instructionMemory.vhd|
+!i113 1
+R6
+R7
+Abehavioral
+R9
+R0
+R1
+R16
+!i122 5
+l35
+L25 20
+VG]2ccGQeF=5[dUOHoae^M1
+!s100 znG;P_RaQeK;O?];<8bG03
+R3
+32
+R12
+!i10b 1
+R13
+R29
+R30
+!i113 1
+R6
+R7

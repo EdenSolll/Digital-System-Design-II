@@ -2,5 +2,5 @@
 2020.2
 May 21 2025
 22:59:56
-/home/Sol/Digital-System-Design-II/registerFile/registerFile.sim/sim_1/synth/timing/xsim/RegisterFileTB_time_synth.v,1758316251,verilog,,,,RAM32M_HD10;RAM32M_UNIQ_BASE_;RAM32X1D_HD11;RAM32X1D_HD12;RAM32X1D_HD9;RAM32X1D_UNIQ_BASE_;glbl;registerFile,,,../../../../../../../Xilinx/Vivado/2025.1/data/rsb/busdef,,,,,
+/home/Sol/Digital-System-Design-II/registerFile/registerFile.sim/sim_1/synth/timing/xsim/RegisterFileTB_time_synth.v,1758921048,verilog,,,,RAM32M_HD2;RAM32M_UNIQ_BASE_;RAM32X1D_HD1;RAM32X1D_HD3;RAM32X1D_HD4;RAM32X1D_UNIQ_BASE_;glbl;registerFile,,,../../../../../../../Xilinx/Vivado/2025.1/data/rsb/busdef,,,,,
 /home/Sol/Digital-System-Design-II/registerFile/registerFile.srcs/sim_1/new/RegisterFileTB.vhd,1758315886,vhdl,,,,registerfiletb,,,,,,,,

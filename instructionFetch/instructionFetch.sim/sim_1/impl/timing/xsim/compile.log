@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.sim/sim_1/impl/timing/xsim/InstructionFetchTB_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionFetch
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/instructionFetch/instructionFetch.srcs/sim_1/new/instructionFetchTB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'InstructionFetchTB'

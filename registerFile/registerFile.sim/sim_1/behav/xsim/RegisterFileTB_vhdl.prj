@@ -1,5 +1,6 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
+"../../../../registerFile.srcs/sources_1/new/globals.vhd" \
 "../../../../registerFile.srcs/sources_1/new/registerFile.vhd" \
 "../../../../registerFile.srcs/sim_1/new/RegisterFileTB.vhd" \
 

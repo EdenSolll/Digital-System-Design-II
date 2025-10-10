@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.sim/sim_1/impl/timing/xsim/InstructionDecodeTB_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM32M_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32M_HD13
+INFO: [VRFC 10-311] analyzing module RAM32M_HD14
+INFO: [VRFC 10-311] analyzing module RAM32M_HD15
+INFO: [VRFC 10-311] analyzing module RAM32M_HD17
+INFO: [VRFC 10-311] analyzing module RAM32M_HD18
+INFO: [VRFC 10-311] analyzing module RAM32M_HD19
+INFO: [VRFC 10-311] analyzing module RAM32M_HD20
+INFO: [VRFC 10-311] analyzing module RAM32M_HD21
+INFO: [VRFC 10-311] analyzing module RAM32M_HD24
+INFO: [VRFC 10-311] analyzing module RAM32X1D_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD16
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD22
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD23
+INFO: [VRFC 10-311] analyzing module instructionDecode
+INFO: [VRFC 10-311] analyzing module registerFile
+INFO: [VRFC 10-311] analyzing module glbl
