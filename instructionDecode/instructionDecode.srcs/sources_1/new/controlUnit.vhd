@@ -3,12 +3,13 @@
 -- Engineer : Eden Grace (erg9359@rit.edu)
 --
 -- Create Date : 09/26/2025
--- Design Name : instructionFetch
--- Module Name : instructionFetch - Behavioral
--- Project Name : InstructionFetch
+-- Design Name : controlUnit
+-- Module Name : instructionUnit - Behavioral
+-- Project Name : instructionDecode
 -- Target Devices : Basys3
 --
--- Description : Instruction Fetch stage for a MIPS CPU
+-- Description : Control unit component for the instruction decode stage of a MIPS Cpu
+-- uses OpCode and Funct to set control flags based on instruction type and opcode
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

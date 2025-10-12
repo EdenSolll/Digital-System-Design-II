@@ -1,22 +1,17 @@
 ----------------------------------------------------------------------------------
--- Company:
--- Engineer:
+-- Company : Rochester Institute of Technology (RIT)
+-- Engineer : Eden Grace (erg9359@rit.edu)
 --
--- Create Date: 10/03/2025 09:57:50 AM
--- Design Name:
--- Module Name: instructionFetch - Behavioral
--- Project Name:
--- Target Devices:
--- Tool Versions:
--- Description:
+-- Create Date : 09/26/2025
+-- Design Name : instructionFetch
+-- Module Name : instructionFetch - Behavioral
+-- Project Name : instructionFetch
+-- Target Devices : Basys3
 --
--- Dependencies:
---
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
---
-----------------------------------------------------------------------------------
+-- Description : Instruction Fetch stage for a MIPs CPU
+-- implements instruction memory module and indexes it with a program counter (PC)
+-- async reset for PC and sync incrementation of PC and sync instruction retrieval
+-- ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;

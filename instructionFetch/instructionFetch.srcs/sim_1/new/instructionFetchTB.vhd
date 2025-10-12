@@ -1,17 +1,16 @@
--------------------------------------------------
---  File:          InstructionFetchTB.vhd
+----------------------------------------------------------------------------------
+-- Company : Rochester Institute of Technology (RIT)
+-- Engineer : Eden Grace (erg9359@rit.edu)
 --
---  Entity:        InstructionFetchTB
---  Architecture:  BEHAVIORAL
---  Author:        Jason Blocklove
---  Created:       07/26/19
---  Modified:
---  VHDL'93
---  Description:   The following is the entity and
---                 architectural description of a
---                 Testbench for Instruction Fetch
---                 Stage
--------------------------------------------------
+-- Create Date : 09/26/2025
+-- Design Name : instructionFetchTB
+-- Module Name : instructionFetchTB - Behavioral
+-- Project Name : instructionFetch
+-- Target Devices : Basys3
+--
+-- Description : Instruction Fetch stage testbench for a MIPs CPU
+-- verfies correct instruction fetching and PC functionality
+----------------------------------------------------------------------------------
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

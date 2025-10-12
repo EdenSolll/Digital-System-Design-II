@@ -3,12 +3,16 @@
 -- Engineer : Eden Grace (erg9359@rit.edu)
 --
 -- Create Date : 09/26/2025
--- Design Name : instructionFetch
--- Module Name : instructionFetch - Behavioral
--- Project Name : InstructionFetch
+-- Design Name : instructionDecode
+-- Module Name : instructionDecode - Behavioral
+-- Project Name : InstructionDecode
 -- Target Devices : Basys3
 --
--- Description : Instruction Fetch stage for a MIPS CPU
+-- Description : Instruction decode stage for a MIPS CPU
+-- Takes Instruction and RegWriteAddr, RegWriteData, RegWriteEn and splits the
+-- instruction into its components based on if it's an R type or I type
+-- passing relevant signals into Control Unit and RegisterFile to recieve output data
+-- and relevant instruction control flags
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -50,10 +54,10 @@ begin
   opcode <= Instruction(31 downto 26);
   rs <= Instruction(25 downto 21);
   rt <= Instruction(20 downto 16);
-  rd <= Instruction(15 downto 11) when unsigned(Instruction(31 downto 26)) = 0 else (others => '0');
-  sh_amt <= Instruction(10 downto 6) when unsigned(Instruction(31 downto 26)) = 0 else (others => '0');
-  funct <= Instruction(5 downto 0) when unsigned(Instruction(31 downto 26)) = 0 else (others => '0');
-  imm <= std_logic_vector(resize(signed(Instruction(15 downto 0)), 32));
+  rd <= Instruction(15 downto 11) when unsigned(Instruction(31 downto 26)) = 0 else (others => '0'); -- set rd when R type
+  sh_amt <= Instruction(10 downto 6) when unsigned(Instruction(31 downto 26)) = 0 else (others => '0'); -- set shift amt when R type
+  funct <= Instruction(5 downto 0) when unsigned(Instruction(31 downto 26)) = 0 else (others => '0'); -- set funct when R type
+  imm <= std_logic_vector(resize(signed(Instruction(15 downto 0)), 32)); -- sign extended Imm from instruction
 
   controlUnit : entity work.controlUnit
    port map(

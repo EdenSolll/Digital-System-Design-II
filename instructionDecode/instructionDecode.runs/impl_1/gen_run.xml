@@ -1,116 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1760063242">
-  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
-  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="instructionDecode_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS" Name="instructionDecode_routed.rqs"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="RDI-RDI" Name="instructionDecode.vdi"/>
-  <File Type="BG-DRC" Name="instructionDecode.drc"/>
-  <File Type="BG-BGN" Name="instructionDecode.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="instructionDecode.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="instructionDecode.ltx"/>
-  <File Type="PL-LTX-FILE" Name="instructionDecode_pld.ltx"/>
-  <File Type="BOOT-LTX-FILE" Name="instructionDecode_boot.ltx"/>
-  <File Type="LTX-FILE" Name="instructionDecode.ltx"/>
-  <File Type="PL-BIF-FILE" Name="instructionDecode_pld.bif"/>
-  <File Type="BOOT-BIF-FILE" Name="instructionDecode_boot.bif"/>
-  <File Type="BIF-FILE" Name="instructionDecode.bif"/>
-  <File Type="MMI-FILE" Name="instructionDecode.mmi"/>
-  <File Type="RBD_FILE" Name="instructionDecode.rbd"/>
-  <File Type="NPI_FILE" Name="instructionDecode.npi"/>
   <File Type="PL_UNMASK_RCDO_FILE" Name="instructionDecode_pld_unmask.rcdo"/>
   <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="instructionDecode_pld_unmask_markers.rcdo"/>
   <File Type="PL_MASK_RCDO_FILE" Name="instructionDecode_pld_mask.rcdo"/>
   <File Type="PL_MARKER_RCDO_FILE" Name="instructionDecode_pld_markers.rcdo"/>
   <File Type="PL-CLEAR-RCDO-FILE" Name="instructionDecode_pld_clear.rcdo"/>
-  <File Type="PL-RCDO-FILE" Name="instructionDecode_pld.rcdo"/>
   <File Type="PL_UNMASK_RNPI_FILE" Name="instructionDecode_pld_unmask.rnpi"/>
   <File Type="PL_SHUTDOWN_RNPI_FILE" Name="instructionDecode_pld_shutdown.rnpi"/>
   <File Type="PL_MASK_RNPI_FILE" Name="instructionDecode_pld_mask.rnpi"/>
   <File Type="PL_MARKER_RNPI_FILE" Name="instructionDecode_pld_markers.rnpi"/>
-  <File Type="PL_RNPI_FILE" Name="instructionDecode_pld.rnpi"/>
   <File Type="BOOT_MARKER_RNPI_FILE" Name="instructionDecode_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="instructionDecode_pld.rnpi"/>
   <File Type="BOOT_RNPI_FILE" Name="instructionDecode_boot.rnpi"/>
-  <File Type="MARKER-RCDO-FILE" Name="instructionDecode_markers.rcdo"/>
   <File Type="MARKER-RNPI-FILE" Name="instructionDecode_markers.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="instructionDecode_pld.rcdo"/>
+  <File Type="MARKER-RCDO-FILE" Name="instructionDecode_markers.rcdo"/>
   <File Type="RCDO-FILE" Name="instructionDecode.rcdo"/>
-  <File Type="RNPI_FILE" Name="instructionDecode.rnpi"/>
-  <File Type="CFI_FILE" Name="instructionDecode.cfi"/>
-  <File Type="RCFI_FILE" Name="instructionDecode.rcfi"/>
-  <File Type="PL-PDI-FILE" Name="instructionDecode_pld.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="instructionDecode_boot.pdi"/>
-  <File Type="PDI-FILE" Name="instructionDecode.pdi"/>
-  <File Type="BITSTR-MMI" Name="instructionDecode.mmi"/>
-  <File Type="BITSTR-BMM" Name="instructionDecode_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="instructionDecode.nky"/>
-  <File Type="BITSTR-RBT" Name="instructionDecode.rbt"/>
+  <File Type="PL-LTX-FILE" Name="instructionDecode_pld.ltx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="instructionDecode_timing_summary_postroute_physopted.rpx"/>
   <File Type="BITSTR-MSK" Name="instructionDecode.msk"/>
-  <File Type="BG-BIN" Name="instructionDecode.bin"/>
-  <File Type="BG-BIT" Name="instructionDecode.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="registerFile_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="registerFile_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="registerFile_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="registerFile_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="registerFile_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="registerFile_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="instructionDecode_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="instructionDecode_postroute_physopt.dcp"/>
-  <File Type="ROUTE-RQS-PB" Name="instructionDecode_rqs_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="instructionDecode_bus_skew_routed.rpx"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="instructionDecode_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="instructionDecode_bus_skew_routed.rpx"/>
   <File Type="ROUTE-BUS-SKEW" Name="instructionDecode_bus_skew_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="instructionDecode_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-SIMILARITY" Name="instructionDecode_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="instructionDecode_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-TIMING-PB" Name="instructionDecode_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="instructionDecode_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="instructionDecode_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="instructionDecode_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="instructionDecode_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC" Name="instructionDecode_drc_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="instructionDecode_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="instructionDecode_power_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="instructionDecode_power_routed.rpt"/>
+  <File Type="BG-DRC" Name="instructionDecode.drc"/>
   <File Type="ROUTE-STATUS-PB" Name="instructionDecode_route_status.pb"/>
   <File Type="ROUTE-STATUS" Name="instructionDecode_route_status.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="instructionDecode_power_routed.rpx"/>
-  <File Type="ROUTE-PWR-SUM" Name="instructionDecode_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="instructionDecode_power_routed.rpt"/>
+  <File Type="BITSTR-BMM" Name="instructionDecode_bd.bmm"/>
+  <File Type="ROUTE-TIMING-RPX" Name="instructionDecode_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="instructionDecode_timing_summary_routed.rpt"/>
+  <File Type="BG-BGN" Name="instructionDecode.bgn"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="instructionDecode_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="instructionDecode_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="instructionDecode_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="instructionDecode_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="instructionDecode_drc_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="instructionDecode_drc_routed.rpt"/>
-  <File Type="ROUTE-UTIL-PB" Name="instructionDecode_utilization_routed.pb"/>
-  <File Type="ROUTE-UTIL" Name="instructionDecode_utilization_routed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="instructionDecode_routed_bb.dcp"/>
-  <File Type="ROUTE-DCP" Name="instructionDecode_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="instructionDecode_routed_error.dcp"/>
-  <File Type="PHYSOPT-TIMING" Name="instructionDecode_timing_summary_physopted.rpt"/>
-  <File Type="PHYSOPT-DRC" Name="instructionDecode_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="instructionDecode_physopt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="instructionDecode_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="instructionDecode_postplace_pwropt.dcp"/>
-  <File Type="PLACE-RQA-PB" Name="instructionDecode_rqa_placed.pb"/>
-  <File Type="PLACE-TIMING" Name="instructionDecode_timing_summary_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="instructionDecode_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="instructionDecode_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="instructionDecode_control_sets_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="instructionDecode_utilization_placed.pb"/>
-  <File Type="PLACE-UTIL" Name="instructionDecode_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="instructionDecode_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="instructionDecode_io_placed.rpt"/>
-  <File Type="PLACE-DCP" Name="instructionDecode_placed.dcp"/>
-  <File Type="PWROPT-TIMING" Name="instructionDecode_timing_summary_pwropted.rpt"/>
-  <File Type="PWROPT-DRC" Name="instructionDecode_drc_pwropted.rpt"/>
-  <File Type="PWROPT-DCP" Name="instructionDecode_pwropt.dcp"/>
-  <File Type="OPT-RQA-PB" Name="instructionDecode_rqa_opted.pb"/>
-  <File Type="OPT-TIMING" Name="instructionDecode_timing_summary_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="instructionDecode.hwdef"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="instructionDecode_methodology_drc_opted.rpt"/>
-  <File Type="OPT-UTIL-PB" Name="instructionDecode_utilization_opted.pb"/>
-  <File Type="OPT-UTIL" Name="instructionDecode_utilization_opted.rpt"/>
-  <File Type="OPT-DRC" Name="instructionDecode_drc_opted.rpt"/>
-  <File Type="OPT-DCP" Name="instructionDecode_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="instructionDecode_timing_summary_init.rpt"/>
   <File Type="REPORTS-TCL" Name="instructionDecode_reports.tcl"/>
   <File Type="PA-TCL" Name="instructionDecode.tcl"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="instructionDecode_methodology_drc_routed.rpt"/>
+  <File Type="PLACE-CTRL" Name="instructionDecode_control_sets_placed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="instructionDecode_timing_summary_postroute_physopted.rpt"/>
+  <File Type="BITSTR-MMI" Name="instructionDecode.mmi"/>
+  <File Type="BITSTR-NKY" Name="instructionDecode.nky"/>
+  <File Type="PLACE-UTIL" Name="instructionDecode_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="instructionDecode_utilization_placed.pb"/>
+  <File Type="OPT-DRC" Name="instructionDecode_drc_opted.rpt"/>
+  <File Type="PLACE-IO" Name="instructionDecode_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="instructionDecode.bin"/>
+  <File Type="BITSTR-RBT" Name="instructionDecode.rbt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="instructionDecode_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="instructionDecode_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="instructionDecode_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="instructionDecode_bus_skew_postroute_physopted.pb"/>
+  <File Type="RDI-RDI" Name="instructionDecode.vdi"/>
+  <File Type="PDI-FILE" Name="instructionDecode.pdi"/>
+  <File Type="BG-BIT" Name="instructionDecode.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="instructionDecode.sysdef"/>
+  <File Type="MMI-FILE" Name="instructionDecode.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="instructionDecode.ltx"/>
+  <File Type="BIF-FILE" Name="instructionDecode.bif"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BOOT-LTX-FILE" Name="instructionDecode_boot.ltx"/>
+  <File Type="OPT-HWDEF" Name="instructionDecode.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="instructionDecode_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="instructionDecode_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="instructionDecode_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="instructionDecode_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="instructionDecode_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="instructionDecode_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="instructionDecode_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="instructionDecode_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="instructionDecode_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="instructionDecode_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="instructionDecode_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="instructionDecode_postroute_physopt_bb.dcp"/>
+  <File Type="BOOT-PDI-FILE" Name="instructionDecode_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="instructionDecode_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="instructionDecode.rcfi"/>
+  <File Type="CFI_FILE" Name="instructionDecode.cfi"/>
+  <File Type="RNPI_FILE" Name="instructionDecode.rnpi"/>
+  <File Type="NPI_FILE" Name="instructionDecode.npi"/>
+  <File Type="RBD_FILE" Name="instructionDecode.rbd"/>
+  <File Type="ROUTE-RQS" Name="instructionDecode_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="instructionDecode_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="BOOT-BIF-FILE" Name="instructionDecode_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="instructionDecode_pld.bif"/>
+  <File Type="LTX-FILE" Name="instructionDecode.ltx"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/controlUnit.vhd">
@@ -158,9 +140,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -170,5 +150,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

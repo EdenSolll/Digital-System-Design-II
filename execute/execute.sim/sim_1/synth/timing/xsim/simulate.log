@@ -1,0 +1,97 @@
+Time resolution is 1 ps
+Note: t=200000 ps test=0 exp_out1=1 out1=1
+Time: 200 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=300000 ps test=1 exp_out1=255 out1=255
+Time: 300 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=400000 ps test=2 exp_out1=-1753917575 out1=-1753917575
+Time: 400 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=500000 ps test=3 exp_out1=-1 out1=-1
+Time: 500 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=600000 ps test=4 exp_out1=-1 out1=-1
+Time: 600 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=700000 ps test=5 exp_out1=1 out1=1
+Time: 700 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=800000 ps test=6 exp_out1=0 out1=0
+Time: 800 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=900000 ps test=7 exp_out1=35930656 out1=35930656
+Time: 900 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1000000 ps test=8 exp_out1=305419896 out1=305419896
+Time: 1 us  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=200000 ps test=0 exp_out1=1 out1=1
+Time: 200 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=300000 ps test=1 exp_out1=255 out1=255
+Time: 300 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=400000 ps test=2 exp_out1=-1753917575 out1=-1753917575
+Time: 400 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=500000 ps test=3 exp_out1=-1 out1=-1
+Time: 500 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=600000 ps test=4 exp_out1=-1 out1=-1
+Time: 600 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=700000 ps test=5 exp_out1=1 out1=1
+Time: 700 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=800000 ps test=6 exp_out1=0 out1=0
+Time: 800 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=900000 ps test=7 exp_out1=35930656 out1=35930656
+Time: 900 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1000000 ps test=8 exp_out1=305419896 out1=305419896
+Time: 1 us  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1100000 ps test=9 exp_out1=0 out1=0
+Time: 1100 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1200000 ps test=10 exp_out1=0 out1=0
+Time: 1200 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1300000 ps test=11 exp_out1=255 out1=255
+Time: 1300 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1400000 ps test=12 exp_out1=-1789848231 out1=-1789848231
+Time: 1400 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1500000 ps test=13 exp_out1=-305419897 out1=-305419897
+Time: 1500 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1600000 ps test=14 exp_out1=-1 out1=-1
+Time: 1600 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1700000 ps test=15 exp_out1=2 out1=2
+Time: 1700 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1800000 ps test=16 exp_out1=240 out1=240
+Time: 1800 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=1900000 ps test=17 exp_out1=0 out1=0
+Time: 1900 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2000000 ps test=18 exp_out1=1 out1=1
+Time: 2 us  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2100000 ps test=19 exp_out1=15 out1=15
+Time: 2100 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2200000 ps test=20 exp_out1=1073741824 out1=1073741824
+Time: 2200 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2300000 ps test=21 exp_out1=1 out1=1
+Time: 2300 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2400000 ps test=22 exp_out1=-1073741824 out1=-1073741824
+Time: 2400 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2500000 ps test=23 exp_out1=-16777216 out1=-16777216
+Time: 2500 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2600000 ps test=24 exp_out1=2 out1=2
+Time: 2600 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2700000 ps test=25 exp_out1=15 out1=15
+Time: 2700 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2800000 ps test=26 exp_out1=536870912 out1=536870912
+Time: 2800 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=2900000 ps test=27 exp_out1=2 out1=2
+Time: 2900 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3000000 ps test=28 exp_out1=5 out1=5
+Time: 3 us  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3100000 ps test=29 exp_out1=-2 out1=-2
+Time: 3100 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3200000 ps test=30 exp_out1=-2147483648 out1=-2147483648
+Time: 3200 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3300000 ps test=31 exp_out1=-2147483648 out1=-2147483648
+Time: 3300 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3400000 ps test=32 exp_out1=2147483647 out1=2147483647
+Time: 3400 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3500000 ps test=33 exp_out1=1 out1=1
+Time: 3500 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3600000 ps test=34 exp_out1=0 out1=0
+Time: 3600 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3700000 ps test=35 exp_out1=0 out1=0
+Time: 3700 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3800000 ps test=36 exp_out1=0 out1=0
+Time: 3800 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: t=3900000 ps test=37 exp_out1=-2 out1=-2
+Time: 3900 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd
+Note: Testbench Concluded - All tests passed!
+Time: 3900 ns  Iteration: 0  Process: /aluTB/stim_proc  File: /home/Sol/Digital-System-Design-II/execute/execute.srcs/sim_1/new/aluTB.vhd

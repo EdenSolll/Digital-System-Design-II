@@ -1,117 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1760064838">
-  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
-  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="instructionFetch_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS" Name="instructionFetch_routed.rqs"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="RDI-RDI" Name="instructionFetch.vdi"/>
-  <File Type="BG-DRC" Name="instructionFetch.drc"/>
-  <File Type="BG-BGN" Name="instructionFetch.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="instructionFetch.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="instructionFetch.ltx"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="instructionFetch_pld_unmask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="instructionFetch_pld_unmask_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="instructionFetch_pld_mask.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="instructionFetch_pld_markers.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="instructionFetch_pld_clear.rcdo"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="instructionFetch_pld_unmask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="instructionFetch_pld_shutdown.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="instructionFetch_pld_mask.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="instructionFetch_pld_markers.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="instructionFetch_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="instructionFetch_pld.rnpi"/>
+  <File Type="BOOT_RNPI_FILE" Name="instructionFetch_boot.rnpi"/>
+  <File Type="MARKER-RNPI-FILE" Name="instructionFetch_markers.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="instructionFetch_pld.rcdo"/>
+  <File Type="MARKER-RCDO-FILE" Name="instructionFetch_markers.rcdo"/>
+  <File Type="RCDO-FILE" Name="instructionFetch.rcdo"/>
   <File Type="PL-LTX-FILE" Name="instructionFetch_pld.ltx"/>
   <File Type="BOOT-LTX-FILE" Name="instructionFetch_boot.ltx"/>
-  <File Type="LTX-FILE" Name="instructionFetch.ltx"/>
-  <File Type="PL-BIF-FILE" Name="instructionFetch_pld.bif"/>
-  <File Type="BOOT-BIF-FILE" Name="instructionFetch_boot.bif"/>
-  <File Type="PA-DCP" Name="instructionFetch.dcp"/>
-  <File Type="BOOT-PDI-FILE" Name="instructionFetch_boot.pdi"/>
-  <File Type="PA-TCL" Name="instructionFetch.tcl"/>
-  <File Type="INIT-TIMING" Name="instructionFetch_timing_summary_init.rpt"/>
-  <File Type="REPORTS-TCL" Name="instructionFetch_reports.tcl"/>
-  <File Type="OPT-TIMING" Name="instructionFetch_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="instructionFetch_opt.dcp"/>
-  <File Type="OPT-DRC" Name="instructionFetch_drc_opted.rpt"/>
-  <File Type="MARKER-RNPI-FILE" Name="instructionFetch_markers.rnpi"/>
-  <File Type="OPT-UTIL" Name="instructionFetch_utilization_opted.rpt"/>
-  <File Type="BITSTR-NKY" Name="instructionFetch.nky"/>
-  <File Type="OPT-UTIL-PB" Name="instructionFetch_utilization_opted.pb"/>
-  <File Type="BITSTR-MMI" Name="instructionFetch.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="instructionFetch_methodology_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="instructionFetch.hwdef"/>
-  <File Type="BOOT_RNPI_FILE" Name="instructionFetch_boot.rnpi"/>
-  <File Type="OPT-RQA-PB" Name="instructionFetch_rqa_opted.pb"/>
-  <File Type="PWROPT-DCP" Name="instructionFetch_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="instructionFetch_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="instructionFetch_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="instructionFetch_placed.dcp"/>
-  <File Type="PLACE-IO" Name="instructionFetch_io_placed.rpt"/>
-  <File Type="PL_RNPI_FILE" Name="instructionFetch_pld.rnpi"/>
-  <File Type="PLACE-CLK" Name="instructionFetch_clock_utilization_placed.rpt"/>
-  <File Type="BOOT_MARKER_RNPI_FILE" Name="instructionFetch_boot_markers.rnpi"/>
-  <File Type="PLACE-UTIL" Name="instructionFetch_utilization_placed.rpt"/>
-  <File Type="PL_MARKER_RNPI_FILE" Name="instructionFetch_pld_markers.rnpi"/>
-  <File Type="PLACE-UTIL-PB" Name="instructionFetch_utilization_placed.pb"/>
-  <File Type="PL_MASK_RNPI_FILE" Name="instructionFetch_pld_mask.rnpi"/>
-  <File Type="PLACE-CTRL" Name="instructionFetch_control_sets_placed.rpt"/>
-  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="instructionFetch_pld_shutdown.rnpi"/>
-  <File Type="PLACE-SIMILARITY" Name="instructionFetch_incremental_reuse_placed.rpt"/>
-  <File Type="PL_UNMASK_RNPI_FILE" Name="instructionFetch_pld_unmask.rnpi"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="instructionFetch_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PL-CLEAR-RCDO-FILE" Name="instructionFetch_pld_clear.rcdo"/>
-  <File Type="PLACE-TIMING" Name="instructionFetch_timing_summary_placed.rpt"/>
-  <File Type="PLACE-RQA-PB" Name="instructionFetch_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="instructionFetch_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="instructionFetch_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="instructionFetch_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="instructionFetch_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="instructionFetch_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="instructionFetch_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="instructionFetch_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="instructionFetch_routed_bb.dcp"/>
-  <File Type="ROUTE-UTIL" Name="instructionFetch_utilization_routed.rpt"/>
-  <File Type="BITSTR-RBT" Name="instructionFetch.rbt"/>
-  <File Type="ROUTE-UTIL-PB" Name="instructionFetch_utilization_routed.pb"/>
-  <File Type="BITSTR-BMM" Name="instructionFetch_bd.bmm"/>
-  <File Type="ROUTE-DRC" Name="instructionFetch_drc_routed.rpt"/>
-  <File Type="PL_MARKER_RCDO_FILE" Name="instructionFetch_pld_markers.rcdo"/>
-  <File Type="ROUTE-DRC-PB" Name="instructionFetch_drc_routed.pb"/>
-  <File Type="PL_MASK_RCDO_FILE" Name="instructionFetch_pld_mask.rcdo"/>
-  <File Type="ROUTE-DRC-RPX" Name="instructionFetch_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="instructionFetch_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="instructionFetch_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="instructionFetch_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="instructionFetch_power_routed.rpt"/>
-  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="instructionFetch_pld_unmask_markers.rcdo"/>
-  <File Type="ROUTE-PWR-SUM" Name="instructionFetch_power_summary_routed.pb"/>
-  <File Type="PL_UNMASK_RCDO_FILE" Name="instructionFetch_pld_unmask.rcdo"/>
-  <File Type="ROUTE-PWR-RPX" Name="instructionFetch_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="instructionFetch_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="instructionFetch_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="instructionFetch_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="instructionFetch_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="instructionFetch_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="instructionFetch_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="instructionFetch_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="instructionFetch_bus_skew_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="instructionFetch_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-MSK" Name="instructionFetch.msk"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="instructionFetch_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="instructionFetch_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-RQS-PB" Name="instructionFetch_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="instructionFetch_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="instructionFetch_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="instructionFetch_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="instructionFetch_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="instructionFetch_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="instructionFetch_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC" Name="instructionFetch_drc_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="instructionFetch_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="instructionFetch_power_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="instructionFetch_power_routed.rpt"/>
+  <File Type="BG-DRC" Name="instructionFetch.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="instructionFetch_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="instructionFetch_route_status.rpt"/>
+  <File Type="BITSTR-BMM" Name="instructionFetch_bd.bmm"/>
+  <File Type="ROUTE-TIMING-RPX" Name="instructionFetch_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="instructionFetch_timing_summary_routed.rpt"/>
+  <File Type="BG-BGN" Name="instructionFetch.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="instructionFetch_methodology_drc_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="instructionFetch_reports.tcl"/>
+  <File Type="PA-TCL" Name="instructionFetch.tcl"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="instructionFetch_methodology_drc_routed.rpt"/>
+  <File Type="PLACE-CTRL" Name="instructionFetch_control_sets_placed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="instructionFetch_timing_summary_postroute_physopted.rpt"/>
+  <File Type="BITSTR-MMI" Name="instructionFetch.mmi"/>
+  <File Type="BITSTR-NKY" Name="instructionFetch.nky"/>
+  <File Type="PLACE-UTIL" Name="instructionFetch_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="instructionFetch_utilization_placed.pb"/>
+  <File Type="OPT-DRC" Name="instructionFetch_drc_opted.rpt"/>
+  <File Type="PLACE-IO" Name="instructionFetch_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="instructionFetch.bin"/>
+  <File Type="BITSTR-RBT" Name="instructionFetch.rbt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="instructionFetch_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="instructionFetch_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="instructionFetch_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="instructionFetch_bus_skew_postroute_physopted.pb"/>
+  <File Type="RDI-RDI" Name="instructionFetch.vdi"/>
+  <File Type="PDI-FILE" Name="instructionFetch.pdi"/>
+  <File Type="PA-DCP" Name="instructionFetch.dcp"/>
+  <File Type="BOOT-PDI-FILE" Name="instructionFetch_boot.pdi"/>
+  <File Type="BG-BIT" Name="instructionFetch.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="instructionFetch.sysdef"/>
+  <File Type="MMI-FILE" Name="instructionFetch.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="instructionFetch.ltx"/>
+  <File Type="BIF-FILE" Name="instructionFetch.bif"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="instructionFetch.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="instructionFetch_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="instructionFetch_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="instructionFetch_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="instructionFetch_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="instructionFetch_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="instructionFetch_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="instructionFetch_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="instructionFetch_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="instructionFetch_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="instructionFetch_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="instructionFetch_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="instructionFetch_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="instructionFetch_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="instructionFetch_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="instructionFetch_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="instructionFetch_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="instructionFetch_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="instructionFetch_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BG-BIT" Name="instructionFetch.bit"/>
-  <File Type="BG-BIN" Name="instructionFetch.bin"/>
-  <File Type="BITSTR-MSK" Name="instructionFetch.msk"/>
-  <File Type="PDI-FILE" Name="instructionFetch.pdi"/>
   <File Type="PL-PDI-FILE" Name="instructionFetch_pld.pdi"/>
   <File Type="RCFI_FILE" Name="instructionFetch.rcfi"/>
   <File Type="CFI_FILE" Name="instructionFetch.cfi"/>
   <File Type="RNPI_FILE" Name="instructionFetch.rnpi"/>
-  <File Type="RCDO-FILE" Name="instructionFetch.rcdo"/>
-  <File Type="MARKER-RCDO-FILE" Name="instructionFetch_markers.rcdo"/>
-  <File Type="PL-RCDO-FILE" Name="instructionFetch_pld.rcdo"/>
   <File Type="NPI_FILE" Name="instructionFetch.npi"/>
   <File Type="RBD_FILE" Name="instructionFetch.rbd"/>
-  <File Type="MMI-FILE" Name="instructionFetch.mmi"/>
-  <File Type="BIF-FILE" Name="instructionFetch.bif"/>
+  <File Type="ROUTE-RQS" Name="instructionFetch_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="instructionFetch_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="BOOT-BIF-FILE" Name="instructionFetch_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="instructionFetch_pld.bif"/>
+  <File Type="LTX-FILE" Name="instructionFetch.ltx"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/instructionMemory.vhd">
@@ -170,5 +152,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

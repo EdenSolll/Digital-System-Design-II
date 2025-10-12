@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun Oct 12 18:36:38 2025
+# Process ID         : 271721
+# Current directory  : /home/Sol/Digital-System-Design-II/execute/execute.runs/synth_1
+# Command line       : vivado -log execute.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source execute.tcl
+# Log file           : /home/Sol/Digital-System-Design-II/execute/execute.runs/synth_1/execute.vds
+# Journal file       : /home/Sol/Digital-System-Design-II/execute/execute.runs/synth_1/vivado.jou
+# Running On         : Solstice
+# Platform           : Arch
+# Operating System   : Arch Linux
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 3819.485 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16468 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 33648 MB
+# Available Virtual  : 6915 MB
+#-----------------------------------------------------------
+source execute.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/Sol/Digital-System-Design-II/execute/execute.srcs/utils_1/imports/synth_1/aluN.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/Sol/Digital-System-Design-II/execute/execute.srcs/utils_1/imports/synth_1/aluN.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top execute -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 271767
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1942.293 ; gain = 424.594 ; free physical = 274 ; free virtual = 5690
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2716] syntax error near 'entity' [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:18]
+ERROR: [Synth 8-9404] entity 'alun' is not yet compiled [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:29]
+ERROR: [Synth 8-36] 'n' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:30]
+ERROR: [Synth 8-36] 'n' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:31]
+ERROR: [Synth 8-36] 'n' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:32]
+ERROR: [Synth 8-36] 'n' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:33]
+ERROR: [Synth 8-36] 'n' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:34]
+ERROR: [Synth 8-36] 'n' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:35]
+ERROR: [Synth 8-36] 'n' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:36]
+ERROR: [Synth 8-36] 'n' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:37]
+ERROR: [Synth 8-36] 'n' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:38]
+ERROR: [Synth 8-36] 'control' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:73]
+ERROR: [Synth 8-36] 'control' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:74]
+ERROR: [Synth 8-36] 'control' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:75]
+ERROR: [Synth 8-36] 'control' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:76]
+ERROR: [Synth 8-36] 'control' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:77]
+ERROR: [Synth 8-36] 'control' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:78]
+ERROR: [Synth 8-36] 'control' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:79]
+ERROR: [Synth 8-36] 'control' is not declared [/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd:80]
+ERROR: [Synth 8-12189] Failed to read vhdl '/home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd'
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2015.230 ; gain = 497.531 ; free physical = 175 ; free virtual = 5594
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 21 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 12 18:36:53 2025...

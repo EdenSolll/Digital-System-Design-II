@@ -2,7 +2,7 @@
 // Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
-// Date        : Thu Oct  9 22:29:16 2025
+// Date        : Fri Oct 10 17:08:30 2025
 // Host        : Solstice running 64-bit Arch Linux
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               /home/Sol/Digital-System-Design-II/instructionDecode/instructionDecode.sim/sim_1/impl/timing/xsim/InstructionDecodeTB_time_impl.v
@@ -255,7 +255,7 @@ module RAM32M_UNIQ_BASE_
         .WE(WE));
 endmodule
 
-module RAM32M_HD13
+module RAM32M_HD1
    (DOA,
     DOB,
     DOC,
@@ -496,7 +496,7 @@ module RAM32M_HD13
         .WE(WE));
 endmodule
 
-module RAM32M_HD14
+module RAM32M_HD12
    (DOA,
     DOB,
     DOC,
@@ -737,7 +737,7 @@ module RAM32M_HD14
         .WE(WE));
 endmodule
 
-module RAM32M_HD15
+module RAM32M_HD2
    (DOA,
     DOB,
     DOC,
@@ -978,7 +978,7 @@ module RAM32M_HD15
         .WE(WE));
 endmodule
 
-module RAM32M_HD17
+module RAM32M_HD3
    (DOA,
     DOB,
     DOC,
@@ -1219,7 +1219,7 @@ module RAM32M_HD17
         .WE(WE));
 endmodule
 
-module RAM32M_HD18
+module RAM32M_HD5
    (DOA,
     DOB,
     DOC,
@@ -1460,7 +1460,7 @@ module RAM32M_HD18
         .WE(WE));
 endmodule
 
-module RAM32M_HD19
+module RAM32M_HD6
    (DOA,
     DOB,
     DOC,
@@ -1701,7 +1701,7 @@ module RAM32M_HD19
         .WE(WE));
 endmodule
 
-module RAM32M_HD20
+module RAM32M_HD7
    (DOA,
     DOB,
     DOC,
@@ -1942,7 +1942,7 @@ module RAM32M_HD20
         .WE(WE));
 endmodule
 
-module RAM32M_HD21
+module RAM32M_HD8
    (DOA,
     DOB,
     DOC,
@@ -2183,7 +2183,7 @@ module RAM32M_HD21
         .WE(WE));
 endmodule
 
-module RAM32M_HD24
+module RAM32M_HD9
    (DOA,
     DOB,
     DOC,
@@ -2510,7 +2510,7 @@ module RAM32X1D_UNIQ_BASE_
         .WE(WE));
 endmodule
 
-module RAM32X1D_HD16
+module RAM32X1D_HD10
    (DPO,
     SPO,
     A0,
@@ -2596,7 +2596,7 @@ module RAM32X1D_HD16
         .WE(WE));
 endmodule
 
-module RAM32X1D_HD22
+module RAM32X1D_HD11
    (DPO,
     SPO,
     A0,
@@ -2682,7 +2682,7 @@ module RAM32X1D_HD22
         .WE(WE));
 endmodule
 
-module RAM32X1D_HD23
+module RAM32X1D_HD4
    (DPO,
     SPO,
     A0,
@@ -3712,7 +3712,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "17" *) 
-  RAM32M_HD13 mem_reg_r1_0_31_12_17
+  RAM32M_HD1 mem_reg_r1_0_31_12_17
        (.ADDRA(Instruction[9:5]),
         .ADDRB(Instruction[9:5]),
         .ADDRC(Instruction[9:5]),
@@ -3743,7 +3743,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "23" *) 
-  RAM32M_HD14 mem_reg_r1_0_31_18_23
+  RAM32M_HD2 mem_reg_r1_0_31_18_23
        (.ADDRA(Instruction[9:5]),
         .ADDRB(Instruction[9:5]),
         .ADDRC(Instruction[9:5]),
@@ -3774,7 +3774,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "29" *) 
-  RAM32M_HD15 mem_reg_r1_0_31_24_29
+  RAM32M_HD3 mem_reg_r1_0_31_24_29
        (.ADDRA(Instruction[9:5]),
         .ADDRB(Instruction[9:5]),
         .ADDRC(Instruction[9:5]),
@@ -3831,7 +3831,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1D_HD16 mem_reg_r1_0_31_30_31__0
+  RAM32X1D_HD4 mem_reg_r1_0_31_30_31__0
        (.A0(RegWriteAddr[0]),
         .A1(RegWriteAddr[1]),
         .A2(RegWriteAddr[2]),
@@ -3863,7 +3863,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "11" *) 
-  RAM32M_HD17 mem_reg_r1_0_31_6_11
+  RAM32M_HD5 mem_reg_r1_0_31_6_11
        (.ADDRA(Instruction[9:5]),
         .ADDRB(Instruction[9:5]),
         .ADDRC(Instruction[9:5]),
@@ -3894,7 +3894,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "5" *) 
-  RAM32M_HD18 mem_reg_r2_0_31_0_5
+  RAM32M_HD6 mem_reg_r2_0_31_0_5
        (.ADDRA(Instruction[4:0]),
         .ADDRB(Instruction[4:0]),
         .ADDRC(Instruction[4:0]),
@@ -3925,7 +3925,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "17" *) 
-  RAM32M_HD19 mem_reg_r2_0_31_12_17
+  RAM32M_HD7 mem_reg_r2_0_31_12_17
        (.ADDRA(Instruction[4:0]),
         .ADDRB(Instruction[4:0]),
         .ADDRC(Instruction[4:0]),
@@ -3956,7 +3956,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "23" *) 
-  RAM32M_HD20 mem_reg_r2_0_31_18_23
+  RAM32M_HD8 mem_reg_r2_0_31_18_23
        (.ADDRA(Instruction[4:0]),
         .ADDRB(Instruction[4:0]),
         .ADDRC(Instruction[4:0]),
@@ -3987,7 +3987,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "29" *) 
-  RAM32M_HD21 mem_reg_r2_0_31_24_29
+  RAM32M_HD9 mem_reg_r2_0_31_24_29
        (.ADDRA(Instruction[4:0]),
         .ADDRB(Instruction[4:0]),
         .ADDRC(Instruction[4:0]),
@@ -4015,7 +4015,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1D_HD22 mem_reg_r2_0_31_30_31
+  RAM32X1D_HD10 mem_reg_r2_0_31_30_31
        (.A0(RegWriteAddr[0]),
         .A1(RegWriteAddr[1]),
         .A2(RegWriteAddr[2]),
@@ -4044,7 +4044,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1D_HD23 mem_reg_r2_0_31_30_31__0
+  RAM32X1D_HD11 mem_reg_r2_0_31_30_31__0
        (.A0(RegWriteAddr[0]),
         .A1(RegWriteAddr[1]),
         .A2(RegWriteAddr[2]),
@@ -4076,7 +4076,7 @@ module registerFile
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "11" *) 
-  RAM32M_HD24 mem_reg_r2_0_31_6_11
+  RAM32M_HD12 mem_reg_r2_0_31_6_11
        (.ADDRA(Instruction[4:0]),
         .ADDRB(Instruction[4:0]),
         .ADDRC(Instruction[4:0]),

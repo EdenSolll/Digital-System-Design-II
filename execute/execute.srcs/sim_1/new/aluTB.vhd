@@ -1,0 +1,155 @@
+-------------------------------------------------
+--  File:          aluTB.vhd
+--
+--  Entity:        aluTB
+--  Architecture:  Testbench
+--  Author:        Eden Grace
+--  Created:       07/29/19
+--  Modified:
+--  VHDL'93
+--  Description:   The following is the entity and
+--                 architectural description of a
+--                aluTB
+-------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity aluTB is
+    Generic ( N : integer := 32 );
+end aluTB;
+
+architecture tb of aluTB is
+
+component aluN IS
+    Port ( in1 : in  std_logic_vector(N-1 downto 0);
+           in2 : in  std_logic_vector(N-1 downto 0);
+           control : in  std_logic_vector(3 downto 0);
+           out1    : out std_logic_vector(N-1 downto 0)
+          );
+end component;
+
+signal in1 : std_logic_vector(N-1 downto 0);
+signal in2 : std_logic_vector(N-1 downto 0);
+signal control : std_logic_vector(3 downto 0);
+signal out1 : std_logic_vector(N-1 downto 0);
+
+type alu_tests is record
+	-- Test Inputs
+	in1 : std_logic_vector(31 downto 0);
+	in2 : std_logic_vector(31 downto 0);
+	control : std_logic_vector(3 downto 0);
+	-- Test Outputs
+	out1 : std_logic_vector(31 downto 0);
+end record;
+
+type test_array is array (natural range <>) of alu_tests;
+
+constant test_vector_array : test_array := (
+    -- OR Operation (control = "1000")
+    (in1 => x"00000001", in2 => x"00000001", control => "1000", out1 => x"00000001"),
+    (in1 => x"0000000F", in2 => x"000000F0", control => "1000", out1 => x"000000FF"),
+    (in1 => x"12345678", in2 => x"87654321", control => "1000", out1 => x"97755779"),
+    (in1 => x"FFFFFFFF", in2 => x"00000000", control => "1000", out1 => x"FFFFFFFF"),
+    (in1 => x"AAAAAAAA", in2 => x"55555555", control => "1000", out1 => x"FFFFFFFF"),
+
+    -- AND Operation (control = "1010")
+    (in1 => x"00000001", in2 => x"00000001", control => "1010", out1 => x"00000001"),
+    (in1 => x"0000000F", in2 => x"000000F0", control => "1010", out1 => x"00000000"),
+    (in1 => x"12345678", in2 => x"87654321", control => "1010", out1 => x"02244220"),
+    (in1 => x"FFFFFFFF", in2 => x"12345678", control => "1010", out1 => x"12345678"),
+    (in1 => x"AAAAAAAA", in2 => x"55555555", control => "1010", out1 => x"00000000"),
+
+    -- XOR Operation (control = "1011")
+    (in1 => x"00000001", in2 => x"00000001", control => "1011", out1 => x"00000000"),
+    (in1 => x"0000000F", in2 => x"000000F0", control => "1011", out1 => x"000000FF"),
+    (in1 => x"12345678", in2 => x"87654321", control => "1011", out1 => x"95511559"),
+    (in1 => x"FFFFFFFF", in2 => x"12345678", control => "1011", out1 => x"EDCBA987"),
+    (in1 => x"AAAAAAAA", in2 => x"55555555", control => "1011", out1 => x"FFFFFFFF"),
+
+    -- SLL Operation (control = "1100")
+    (in1 => x"00000001", in2 => x"00000001", control => "1100", out1 => x"00000002"),  -- shift left by 1
+    (in1 => x"0000000F", in2 => x"00000004", control => "1100", out1 => x"000000F0"),  -- shift left by 4
+    (in1 => x"80000000", in2 => x"00000001", control => "1100", out1 => x"00000000"),  -- shift out MSB
+
+    -- SRL Operation (control = "1101")
+    (in1 => x"00000002", in2 => x"00000001", control => "1101", out1 => x"00000001"),  -- shift right by 1
+    (in1 => x"000000F0", in2 => x"00000004", control => "1101", out1 => x"0000000F"),  -- shift right by 4
+    (in1 => x"80000000", in2 => x"00000001", control => "1101", out1 => x"40000000"),  -- shift right logical
+
+    -- SRA Operation (control = "1110")
+    (in1 => x"00000002", in2 => x"00000001", control => "1110", out1 => x"00000001"),  -- shift right by 1 (positive)
+    (in1 => x"80000000", in2 => x"00000001", control => "1110", out1 => x"C0000000"),  -- shift right arithmetic (negative)
+    (in1 => x"F0000000", in2 => x"00000004", control => "1110", out1 => x"FF000000"),  -- shift right arithmetic (sign extend)
+
+    -- ADD Operation (control = "0100")
+    (in1 => x"00000001", in2 => x"00000001", control => "0100", out1 => x"00000002"),  -- 1 + 1 = 2
+    (in1 => x"0000000A", in2 => x"00000005", control => "0100", out1 => x"0000000F"),  -- 10 + 5 = 15
+    (in1 => x"10000000", in2 => x"10000000", control => "0100", out1 => x"20000000"),  -- large numbers
+
+    -- SUB Operation (control = "0101")
+    (in1 => x"00000005", in2 => x"00000003", control => "0101", out1 => x"00000002"),  -- 5 - 3 = 2
+    (in1 => x"0000000A", in2 => x"00000005", control => "0101", out1 => x"00000005"),  -- 10 - 5 = 5
+    (in1 => x"00000003", in2 => x"00000005", control => "0101", out1 => x"FFFFFFFE"),  -- 3 - 5 = -2 (two's complement)
+
+    -- EDGE CASES: Overflow and Underflow for Ripple Carry Adder/Subtractor
+
+    -- ADD Overflow: Maximum positive + 1 = negative (overflow)
+    (in1 => x"7FFFFFFF", in2 => x"00000001", control => "0100", out1 => x"80000000"),
+
+    -- ADD Overflow: Large positive numbers
+    (in1 => x"40000000", in2 => x"40000000", control => "0100", out1 => x"80000000"),
+
+    -- SUB Underflow: Minimum negative - 1 = positive (underflow)
+    (in1 => x"80000000", in2 => x"00000001", control => "0101", out1 => x"7FFFFFFF"),
+
+    -- SUB Underflow: Negative minus positive
+    (in1 => x"80000000", in2 => x"7FFFFFFF", control => "0101", out1 => x"00000001"),
+
+    -- Zero cases
+    (in1 => x"00000000", in2 => x"00000000", control => "0100", out1 => x"00000000"),  -- 0 + 0 = 0
+    (in1 => x"00000000", in2 => x"00000000", control => "0101", out1 => x"00000000"),  -- 0 - 0 = 0
+
+    -- All ones cases
+    (in1 => x"FFFFFFFF", in2 => x"00000001", control => "0100", out1 => x"00000000"),  -- -1 + 1 = 0
+    (in1 => x"FFFFFFFF", in2 => x"FFFFFFFF", control => "0100", out1 => x"FFFFFFFE")   -- -1 + -1 = -2
+);
+
+begin
+
+aluN_0 : aluN
+    port map (
+			in1  => in1,
+			in2  => in2,
+      control  => control,
+      out1     => out1
+		);
+
+	stim_proc:process
+	begin
+    wait for 100 ns;
+
+		for i in test_vector_array'range loop
+      in1 <= test_vector_array(i).in1;
+      in2 <= test_vector_array(i).in2;
+      control <= test_vector_array(i).control;
+			wait for 100 ns;
+
+    report "t=" & time'image(now) &
+         " test=" & integer'image(i) &
+         " exp_out1=" & integer'image(to_integer(unsigned(test_vector_array(i).out1))) &
+         " out1=" & integer'image(to_integer(unsigned(out1)));
+
+    assert (out1 = test_vector_array(i).out1)
+      report "ALU test failed at test" & integer'image(i)
+      severity failure;
+
+		end loop;
+
+		assert false
+		  report "Testbench Concluded - All tests passed!"
+		  severity note;
+
+    wait;
+	end process;
+end tb;
