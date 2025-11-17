@@ -1,0 +1,7 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/dataMemoryTB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'data_memory_tb'
+ERROR: [VRFC 10-719] formal port/generic <width> is not declared in <\dataMemory\> [/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/dataMemoryTB.vhd:27]
+ERROR: [VRFC 10-719] formal port/generic <w_en> is not declared in <\dataMemory\> [/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/dataMemoryTB.vhd:32]
+ERROR: [VRFC 10-3353] formal port 'led_active_counter' has no actual or default value [/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/dataMemoryTB.vhd:25]
+ERROR: [VRFC 10-9458] unit 'tb' is ignored due to previous errors [/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/dataMemoryTB.vhd:8]
+INFO: [VRFC 10-8704] VHDL file '/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/dataMemoryTB.vhd' is ignored due to errors

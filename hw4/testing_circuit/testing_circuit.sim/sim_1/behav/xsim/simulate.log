@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+Note: t=10000 ps test=0 signature=0 exp_signature=0
+Time: 10 ns  Iteration: 0  Process: /test_circuit_TB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sim_1/new/test_circuit_TB.vhd
+Note: t=120000 ps test=1 signature=1 exp_signature=1
+Time: 120 ns  Iteration: 0  Process: /test_circuit_TB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sim_1/new/test_circuit_TB.vhd
+Note: t=230000 ps test=2 signature=2 exp_signature=2
+Time: 230 ns  Iteration: 0  Process: /test_circuit_TB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sim_1/new/test_circuit_TB.vhd
+Note: t=340000 ps test=3 signature=5 exp_signature=5
+Time: 340 ns  Iteration: 0  Process: /test_circuit_TB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sim_1/new/test_circuit_TB.vhd
+Note: t=450000 ps test=4 signature=10 exp_signature=10
+Time: 450 ns  Iteration: 0  Process: /test_circuit_TB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sim_1/new/test_circuit_TB.vhd
+Failure: Testbench Successful
+Time: 600 ns  Iteration: 1  Process: /test_circuit_TB/sim_proc  File: /home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sim_1/new/test_circuit_TB.vhd
+$finish called at time : 600 ns : File "/home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sim_1/new/test_circuit_TB.vhd" Line 90

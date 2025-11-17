@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/dataMemoryTB.vhd,1762880594,vhdl,,,,data_memory_tb,,,,,,,,
+/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/memoryTB.vhd,1762896040,vhdl,,,,memorytb,,,,,,,,
+/home/Sol/Digital-System-Design-II/memory/memory.srcs/sources_1/new/dataMemory.vhd,1762568474,vhdl,/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/dataMemoryTB.vhd,,,datamemory,,,,,,,,
+/home/Sol/Digital-System-Design-II/memoryStage/memoryStage.sim/sim_1/impl/timing/xsim/memoryTB_time_impl.v,1762924472,verilog,/home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/memoryTB.vhd,,,memory,,,../../../../../../../Xilinx/Vivado/2025.1/data/rsb/busdef,,,,,

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "work" -L "secureip" --snapshot "multiplierTB_behav" "xil_defaultlib.multiplierTB" -log "elaborate.log" 

@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+Note: Memory Stage Testbench Concluded - All tests passed!
+Time: 750 ns  Iteration: 0  Process: /memoryTB/stimulus_process  File: /home/Sol/Digital-System-Design-II/memory/memory.srcs/sim_1/new/memoryTB.vhd

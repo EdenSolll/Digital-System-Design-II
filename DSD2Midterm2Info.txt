@@ -1,0 +1,51 @@
+1) testing / verification
+
+  - Basic testing concepts
+
+      why test
+
+      what stages of the design cycle do we test at
+
+  - Stuck at fault model
+
+      finding test patterns
+
+  - Linear feedback shift registers
+
+      LFSR -> DUT -> SISR/MISR
+
+  - SISR/MISR
+
+      1's counting or transition counting
+
+      Formulas for probabilities that a fault will be missed
+
+  - Write VHDL code for these things
+
+2) High preformance adders
+
+  - Bitwise P, G, D
+
+      Expressing Cout in terms of P, G, D
+
+      Pi = Ai xor Bi
+      Si = Ai xor Bi xor Cini
+         = Pi xor Cini
+
+      Couti = Maj(Ai,Bi,Cini)
+            = Ai*Bi + Ai*Cini + BiCini
+            = Ai*Bi + Cini(Ai xor Bi)
+            = gi + Cin*Pi
+            = Gi:0
+
+      Difference between lowercase and uppercase (g, G, p, P)
+
+  - Evaluate g, p, d, Gi:j, Pi:j
+
+      A = 10110
+      B = 10011
+
+  - PG Diagrams
+
+      Understanding what all the different squares mean
+

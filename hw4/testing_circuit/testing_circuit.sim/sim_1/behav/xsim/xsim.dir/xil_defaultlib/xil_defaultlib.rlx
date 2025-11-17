@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sim_1/new/test_circuit_TB.vhd,1761780761,vhdl,,,,test_circuit_tb,,,,,,,,
+/home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sources_1/new/CUT.vhd,1761759395,vhdl,/home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sources_1/new/test_circuit.vhd,,,cut,,,,,,,,
+/home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sources_1/new/LFSR.vhd,1761777251,vhdl,/home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sources_1/new/test_circuit.vhd,,,lfsr,,,,,,,,
+/home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sources_1/new/SISR.vhd,1761772548,vhdl,/home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sources_1/new/test_circuit.vhd,,,sisr,,,,,,,,
+/home/Sol/Digital-System-Design-II/hw4/testing_circuit/testing_circuit.srcs/sources_1/new/test_circuit.vhd,1761780449,vhdl,,,,test_circuit,,,,,,,,

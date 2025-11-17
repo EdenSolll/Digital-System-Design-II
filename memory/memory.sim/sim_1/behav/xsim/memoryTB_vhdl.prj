@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../memory.srcs/sources_1/new/bcd_seven_seg_converter.vhd" \
+"../../../../memory.srcs/sources_1/new/dataMemory.vhd" \
+"../../../../memory.srcs/sources_1/new/seven_seg_controller.vhd" \
+"../../../../memory.srcs/sources_1/new/memory.vhd" \
+"../../../../memory.srcs/sim_1/new/dataMemoryTB.vhd" \
+"../../../../memory.srcs/sim_1/new/memoryTB.vhd" \
+
+# Do not sort compile order
+nosort

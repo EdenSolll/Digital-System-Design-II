@@ -1,0 +1,4 @@
+Running: xsim.dir/multiplierTB_time_synth/xsimk -simmode gui -wdb multiplierTB_time_synth.wdb -simrunnum 0 -socket 40503
+Design successfully loaded
+Design Loading Memory Usage: 177440 KB (Peak: 177440 KB)
+Design Loading CPU Usage: 1190 ms

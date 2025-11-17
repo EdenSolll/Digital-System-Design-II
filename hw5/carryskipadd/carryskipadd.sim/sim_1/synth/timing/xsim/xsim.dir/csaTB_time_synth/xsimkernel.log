@@ -1,0 +1,4 @@
+Running: xsim.dir/csaTB_time_synth/xsimk -simmode gui -wdb csaTB_time_synth.wdb -simrunnum 0 -socket 48781
+Design successfully loaded
+Design Loading Memory Usage: 177196 KB (Peak: 177196 KB)
+Design Loading CPU Usage: 1900 ms

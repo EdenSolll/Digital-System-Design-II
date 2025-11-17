@@ -1,6 +1,11 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
+"../../../../../execute.srcs/sim_1/new/executeTB.vhd" \
+"../../../../../execute.srcs/sim_1/new/multiplierTB.vhd" \
 "../../../../../execute.srcs/sim_1/new/aluTB.vhd" \
+
+vhdl work  \
+"../../../../../execute.srcs/sources_1/new/globals.vhd" \
 
 # Do not sort compile order
 nosort

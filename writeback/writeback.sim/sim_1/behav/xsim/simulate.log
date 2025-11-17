@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: Simulation completed.
+Time: 280 ns  Iteration: 0  Process: /WriteBackTB/stim_proc  File: /home/Sol/Digital-System-Design-II/writeback/writeback.srcs/sim_1/new/writebackTB.vhd
+$finish called at time : 280 ns : File "/home/Sol/Digital-System-Design-II/writeback/writeback.srcs/sim_1/new/writebackTB.vhd" Line 127

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../carryskipadd.srcs/sources_1/new/globals.vhd" \
+"../../../../../carryskipadd.srcs/sim_1/new/carryskipaddTB.vhd" \
+
+# Do not sort compile order
+nosort

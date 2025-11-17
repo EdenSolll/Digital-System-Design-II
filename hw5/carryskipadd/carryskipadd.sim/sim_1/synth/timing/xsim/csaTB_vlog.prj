@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../Xilinx/Vivado/2025.1/data/rsb/busdef" \
+"csaTB_time_synth.v" \
+
+# Do not sort compile order
+nosort

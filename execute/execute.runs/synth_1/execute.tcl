@@ -56,10 +56,8 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
+set_param chipscope.maxJobs 2
 set_param general.usePosixSpawnForFork 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -76,8 +74,8 @@ set_property ip_output_repo /home/Sol/Digital-System-Design-II/execute/execute.c
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+read_vhdl -library work /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/globals.vhd
 read_vhdl -library xil_defaultlib {
-  /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/globals.vhd
   /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/orN.vhd
   /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/andN.vhd
   /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/xorN.vhd
@@ -86,6 +84,7 @@ read_vhdl -library xil_defaultlib {
   /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/sllN.vhd
   /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/fullAdder.vhd
   /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/rippleCarryAdder.vhd
+  /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/multiplier.vhd
   /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/aluN.vhd
   /home/Sol/Digital-System-Design-II/execute/execute.srcs/sources_1/new/execute.vhd
 }
@@ -104,7 +103,7 @@ read_checkpoint -auto_incremental -incremental /home/Sol/Digital-System-Design-I
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top execute -part xc7a35tcpg236-1
+synth_design -top execute -part xc7a35tcpg236-1 -mode out_of_context
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"

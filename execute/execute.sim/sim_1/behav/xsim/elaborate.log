@@ -1,8 +1,18 @@
 Vivado Simulator v2025.1.0
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /home/Sol/Xilinx/Vivado/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot aluTB_behav xil_defaultlib.aluTB -log elaborate.log 
+Running: /home/Sol/Xilinx/Vivado/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L work -L secureip --snapshot multiplierTB_behav xil_defaultlib.multiplierTB -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.fullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.multiplier [multiplier_default]
+Compiling architecture tb of entity xil_defaultlib.multipliertb
+Built simulation snapshot multiplierTB_behav

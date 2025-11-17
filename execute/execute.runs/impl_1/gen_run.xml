@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1762417130">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="execute_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="execute_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="execute.vdi"/>
+  <File Type="BG-DRC" Name="execute.drc"/>
+  <File Type="BG-BGN" Name="execute.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="execute.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="execute.ltx"/>
+  <File Type="PL-LTX-FILE" Name="execute_pld.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="execute_boot.ltx"/>
+  <File Type="LTX-FILE" Name="execute.ltx"/>
+  <File Type="PL-BIF-FILE" Name="execute_pld.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="execute_boot.bif"/>
+  <File Type="BIF-FILE" Name="execute.bif"/>
+  <File Type="MMI-FILE" Name="execute.mmi"/>
+  <File Type="RBD_FILE" Name="execute.rbd"/>
+  <File Type="NPI_FILE" Name="execute.npi"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="execute_pld_unmask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="execute_pld_unmask_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="execute_pld_mask.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="execute_pld_markers.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="execute_pld_clear.rcdo"/>
+  <File Type="PL-RCDO-FILE" Name="execute_pld.rcdo"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="execute_pld_unmask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="execute_pld_shutdown.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="execute_pld_mask.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="execute_pld_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="execute_pld.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="execute_boot_markers.rnpi"/>
+  <File Type="BOOT_RNPI_FILE" Name="execute_boot.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="execute_markers.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="execute_markers.rnpi"/>
+  <File Type="RCDO-FILE" Name="execute.rcdo"/>
+  <File Type="RNPI_FILE" Name="execute.rnpi"/>
+  <File Type="CFI_FILE" Name="execute.cfi"/>
+  <File Type="RCFI_FILE" Name="execute.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="execute_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="execute_boot.pdi"/>
+  <File Type="PDI-FILE" Name="execute.pdi"/>
+  <File Type="BITSTR-MMI" Name="execute.mmi"/>
+  <File Type="BITSTR-BMM" Name="execute_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="execute.nky"/>
+  <File Type="BITSTR-RBT" Name="execute.rbt"/>
+  <File Type="BITSTR-MSK" Name="execute.msk"/>
+  <File Type="BG-BIN" Name="execute.bin"/>
+  <File Type="BG-BIT" Name="execute.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="execute_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="execute_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="execute_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="execute_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="execute_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="execute_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="execute_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="execute_postroute_physopt.dcp"/>
+  <File Type="ROUTE-RQS-PB" Name="execute_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="execute_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="execute_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="execute_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="execute_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="execute_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="execute_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="execute_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="execute_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="execute_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="execute_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="execute_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="execute_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="execute_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="execute_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="execute_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="execute_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="execute_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="execute_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="execute_drc_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="execute_utilization_routed.pb"/>
+  <File Type="ROUTE-UTIL" Name="execute_utilization_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="execute_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="execute_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="execute_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="execute_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="execute_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="execute_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="execute_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="execute_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="execute_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="execute_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="execute_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="execute_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="execute_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="execute_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="execute_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="execute_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="execute_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="execute_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="execute_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="execute_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="execute_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="execute_rqa_opted.pb"/>
+  <File Type="OPT-TIMING" Name="execute_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="execute.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="execute_methodology_drc_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="execute_utilization_opted.pb"/>
+  <File Type="OPT-UTIL" Name="execute_utilization_opted.rpt"/>
+  <File Type="OPT-DRC" Name="execute_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="execute_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="execute_timing_summary_init.rpt"/>
+  <File Type="REPORTS-TCL" Name="execute_reports.tcl"/>
+  <File Type="PA-TCL" Name="execute.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/globals.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="work"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/orN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/andN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/xorN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/srlN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sraN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sllN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fullAdder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rippleCarryAdder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multiplier.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/aluN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/execute.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="execute"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/aluN.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/aluN.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

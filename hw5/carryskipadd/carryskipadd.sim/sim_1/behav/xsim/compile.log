@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/hw5/carryskipadd/carryskipadd.srcs/sources_1/new/globals.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/hw5/carryskipadd/carryskipadd.srcs/sources_1/new/carryskipadd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CSA'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/Digital-System-Design-II/hw5/carryskipadd/carryskipadd.srcs/sim_1/new/carryskipaddTB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'csaTB'

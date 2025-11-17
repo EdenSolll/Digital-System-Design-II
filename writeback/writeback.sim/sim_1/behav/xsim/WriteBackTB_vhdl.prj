@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../writeback.srcs/sources_1/new/writeback.vhd" \
+"../../../../writeback.srcs/sim_1/new/writebackTB.vhd" \
+
+# Do not sort compile order
+nosort
